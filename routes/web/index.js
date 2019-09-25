@@ -16,7 +16,7 @@ app.set('views', './views/web') // 设置模板路径
 app.get('/', function (req, res) {
   // res.header("Content-Type:text/html; charset=utf-8");
   res.render('index', {
-    title: '欢迎进入IT开发者--Nodejs+express'
+    title: '团单爬虫-中国政府采购网'
   })
 })
 
